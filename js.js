@@ -33,8 +33,38 @@ let sColor2 = 'rgb(' + r2+ ',' + g2+ ' ,' + b2+ ')';
 
         fon.style.background = randomColor
         numer.style.background = randomColor2
+            clivk.addEventListener('click', function (){
+                    numer.style.background = randomColor
+                    fon.style.background = randomColor2
+                    let a = Number(numer.value);
+
+                    d = d + 1
+                    numer.value = d;
+            })
+
     }, 1000
+
 );
+
+
+
+let odin = document.querySelector('.in1');
+let dva = document.querySelector('.in2');
+let vivod = document.querySelector('.vivod');
+
+odin.oninput = function (){
+    let aa = Number(odin.value)
+    let bb = Number(dva.value)
+    let cc = aa + bb
+    vivod.value = cc;
+}
+dva.oninput = function (){
+    let aa = Number(odin.value)
+    let bb = Number(dva.value)
+    let cc = aa + bb
+    vivod.value = cc;
+}
+
 
 
 

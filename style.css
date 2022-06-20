@@ -1,0 +1,30 @@
+.vse{
+    background: #e5e5e5;
+    width: 550px;
+    height: 600px;
+}
+.vivod{
+    margin-top: 16%;
+    margin-left: 10%;
+    position: absolute;
+
+}
+body{
+    display: flex ;
+    justify-content: center;
+}
+.in1{
+    margin-top: 10%;
+    margin-left: 10%;
+    position: absolute;
+}
+.in2{
+    margin-top: 13%;
+    margin-left: 10%;
+    position: absolute;
+}
+.in3{
+    margin-top: 19%;
+    margin-left: 12.5%;
+    position: absolute;
+}
